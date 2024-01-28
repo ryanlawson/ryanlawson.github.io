@@ -1,0 +1,25 @@
+a {
+    color: #0431B4;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 70%;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+h1 {
+    font-weight: 100;
+}
+.blink {
+    animation: blinker 1s step-start infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+#cursor {
+    margin:-3px;
+}
